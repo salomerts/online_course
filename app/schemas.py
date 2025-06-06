@@ -54,6 +54,5 @@ class EnrollmentCreate(EnrollmentBase):
 class Enrollment(EnrollmentBase):
     id:int
 
-    class Config:
-        orm_mode = True   
+   
     
